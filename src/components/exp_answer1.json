@@ -1,0 +1,312 @@
+{
+  "data": {
+    "plan": {
+      "itineraries": [
+        {
+          "startTime": 1715667960000,
+          "endTime": 1715670254000,
+          "duration": 2294,
+          "legs": [
+            {
+              "mode": "WALK",
+              "route": null,
+              "from": {
+                "name": "Origin",
+                "lat": 48.2201224,
+                "lon": 16.3552381,
+                "departureTime": 1715667960000,
+                "arrivalTime": 1715667960000
+              },
+              "to": {
+                "name": "Destination",
+                "lat": 48.2016089,
+                "lon": 16.369139,
+                "departureTime": 1715670254000,
+                "arrivalTime": 1715670254000
+              },
+              "duration": 2294,
+              "startTime": 1715667960000,
+              "endTime": 1715670254000,
+              "legGeometry": {
+                "points": "w~heHikybBFGJIJI@?@ACOAK?AGUQo@?CUa@AAj@y@`@a@DEZ]DG\\_@Z]DGX[B??ADA@C@A?Cd@e@ZW@CDC?A@AZWB@@?fBaBZWb@a@`@]b@a@HKHI@A@ANMDGDEzCyCDEFEdA{@TEB@LDFIHIHIBC@A@?l@g@pBwBBC\\a@JSDIGUVs@T[\\]BCLSBCHMHGXWBERQrAwA~@_AJEl@_@j@a@VQp@a@HQLA\\c@LATCZKXK`@Un@_@b@W`Ak@d@[LIFE^UxAcAZSrDwAPGPGPA?SBMDM@EHIHCDAH?HBHDHLLQ~@i@r@a@HLF?B@LIHMzB_ATARQBEDSVIrAc@FC@?JGLMDGJSLUHGbAe@bAc@BCNAv@VLFB@TBxDzAJDB@NFJBJDB@?C@C?Cn@uEB?B@DCBUAGCKR_@XBTJGZFFx@\\BAJD"
+              },
+              "generalizedCost": 4104
+            }
+          ]
+        },
+        {
+          "startTime": 1715668010000,
+          "endTime": 1715669316000,
+          "duration": 1306,
+          "legs": [
+            {
+              "mode": "WALK",
+              "route": null,
+              "from": {
+                "name": "Origin",
+                "lat": 48.2201224,
+                "lon": 16.3552381,
+                "departureTime": 1715668010000,
+                "arrivalTime": 1715668010000
+              },
+              "to": {
+                "name": "Sensengasse",
+                "lat": 48.2207042,
+                "lon": 16.3555455,
+                "departureTime": 1715668140000,
+                "arrivalTime": 1715668140000
+              },
+              "duration": 130,
+              "startTime": 1715668010000,
+              "endTime": 1715668140000,
+              "legGeometry": {
+                "points": "w~heHikybBIHABIJi@sBCGEHA@A@ACCEADQVEHA@CE"
+              },
+              "generalizedCost": 200
+            },
+            {
+              "mode": "TRAM",
+              "route": {
+                "shortName": "38"
+              },
+              "from": {
+                "name": "Sensengasse",
+                "lat": 48.2207042,
+                "lon": 16.3555455,
+                "departureTime": 1715668140000,
+                "arrivalTime": 1715668140000
+              },
+              "to": {
+                "name": "Schottentor U",
+                "lat": 48.2140183,
+                "lon": 16.3619236,
+                "departureTime": 1715668320000,
+                "arrivalTime": 1715668320000
+              },
+              "duration": 180,
+              "startTime": 1715668140000,
+              "endTime": 1715668320000,
+              "legGeometry": {
+                "points": "qbieHkmybBd@u@^s@Va@^c@xDaEnAkAfCaCfBgBf@a@??VSPM~BaCbAeAv@i@n@a@`A_A`CgCd@WP@NDFLBLDRVr@HHHBH?JCHIBIBM@QAQGOKWIYGG"
+              },
+              "generalizedCost": 780
+            },
+            {
+              "mode": "WALK",
+              "route": null,
+              "from": {
+                "name": "Schottentor U",
+                "lat": 48.2140183,
+                "lon": 16.3619236,
+                "departureTime": 1715668320000,
+                "arrivalTime": 1715668320000
+              },
+              "to": {
+                "name": "Schottentor U",
+                "lat": 48.213731,
+                "lon": 16.3618068,
+                "departureTime": 1715668382000,
+                "arrivalTime": 1715668382000
+              },
+              "duration": 62,
+              "startTime": 1715668320000,
+              "endTime": 1715668382000,
+              "legGeometry": {
+                "points": "qxgeH_uzbBDMAA?AIC@E?CDEHBFG@C`@fA?A"
+              },
+              "generalizedCost": 101
+            },
+            {
+              "mode": "TRAM",
+              "route": {
+                "shortName": "1"
+              },
+              "from": {
+                "name": "Schottentor U",
+                "lat": 48.213731,
+                "lon": 16.3618068,
+                "departureTime": 1715668620000,
+                "arrivalTime": 1715668620000
+              },
+              "to": {
+                "name": "Oper/Karlsplatz U",
+                "lat": 48.2024343,
+                "lon": 16.3686879,
+                "departureTime": 1715669100000,
+                "arrivalTime": 1715669100000
+              },
+              "duration": 480,
+              "startTime": 1715668620000,
+              "endTime": 1715669100000,
+              "legGeometry": {
+                "points": "yvgeHgtzbBL^LRNJTFvL`CrB`@??dEx@hCh@??|AZzAXfCj@ZLLBL?JEHIDGf@s@??f@w@Za@tFiIvE}G??hAaBVa@DGBIDODS|@wGbCkQ"
+              },
+              "generalizedCost": 1318
+            },
+            {
+              "mode": "WALK",
+              "route": null,
+              "from": {
+                "name": "Oper/Karlsplatz U",
+                "lat": 48.2024343,
+                "lon": 16.3686879,
+                "departureTime": 1715669100000,
+                "arrivalTime": 1715669100000
+              },
+              "to": {
+                "name": "Destination",
+                "lat": 48.2016089,
+                "lon": 16.369139,
+                "departureTime": 1715669316000,
+                "arrivalTime": 1715669316000
+              },
+              "duration": 216,
+              "startTime": 1715669100000,
+              "endTime": 1715669316000,
+              "legGeometry": {
+                "points": "epeeHg_|bB@?L}@CAFa@DCBUAGCKR_@XBTJGZFFx@\\BAJD"
+              },
+              "generalizedCost": 344
+            }
+          ]
+        },
+        {
+          "startTime": 1715668070000,
+          "endTime": 1715669376000,
+          "duration": 1306,
+          "legs": [
+            {
+              "mode": "WALK",
+              "route": null,
+              "from": {
+                "name": "Origin",
+                "lat": 48.2201224,
+                "lon": 16.3552381,
+                "departureTime": 1715668070000,
+                "arrivalTime": 1715668070000
+              },
+              "to": {
+                "name": "Sensengasse",
+                "lat": 48.2207042,
+                "lon": 16.3555455,
+                "departureTime": 1715668200000,
+                "arrivalTime": 1715668200000
+              },
+              "duration": 130,
+              "startTime": 1715668070000,
+              "endTime": 1715668200000,
+              "legGeometry": {
+                "points": "w~heHikybBIHABIJi@sBCGEHA@A@ACCEADQVEHA@CE"
+              },
+              "generalizedCost": 200
+            },
+            {
+              "mode": "TRAM",
+              "route": {
+                "shortName": "37"
+              },
+              "from": {
+                "name": "Sensengasse",
+                "lat": 48.2207042,
+                "lon": 16.3555455,
+                "departureTime": 1715668200000,
+                "arrivalTime": 1715668200000
+              },
+              "to": {
+                "name": "Schottentor U",
+                "lat": 48.2140183,
+                "lon": 16.3619236,
+                "departureTime": 1715668440000,
+                "arrivalTime": 1715668440000
+              },
+              "duration": 240,
+              "startTime": 1715668200000,
+              "endTime": 1715668440000,
+              "legGeometry": {
+                "points": "qbieHkmybBd@u@^s@Va@^c@xDaEnAkAfCaCfBgBf@a@??VSPM~BaCbAeAv@i@n@a@`A_A`CgCd@WP@NDFLBLDRVr@HHHBH?JCHIBIBM@QAQGOKWIYGG"
+              },
+              "generalizedCost": 840
+            },
+            {
+              "mode": "WALK",
+              "route": null,
+              "from": {
+                "name": "Schottentor U",
+                "lat": 48.2140183,
+                "lon": 16.3619236,
+                "departureTime": 1715668440000,
+                "arrivalTime": 1715668440000
+              },
+              "to": {
+                "name": "Schottentor U",
+                "lat": 48.213731,
+                "lon": 16.3618068,
+                "departureTime": 1715668502000,
+                "arrivalTime": 1715668502000
+              },
+              "duration": 62,
+              "startTime": 1715668440000,
+              "endTime": 1715668502000,
+              "legGeometry": {
+                "points": "qxgeH_uzbBDMAA?AIC@E?CDEHBFG@C`@fA?A"
+              },
+              "generalizedCost": 101
+            },
+            {
+              "mode": "TRAM",
+              "route": {
+                "shortName": "71"
+              },
+              "from": {
+                "name": "Schottentor U",
+                "lat": 48.213731,
+                "lon": 16.3618068,
+                "departureTime": 1715668740000,
+                "arrivalTime": 1715668740000
+              },
+              "to": {
+                "name": "Oper/Karlsplatz U",
+                "lat": 48.2024343,
+                "lon": 16.3686879,
+                "departureTime": 1715669160000,
+                "arrivalTime": 1715669160000
+              },
+              "duration": 420,
+              "startTime": 1715668740000,
+              "endTime": 1715669160000,
+              "legGeometry": {
+                "points": "yvgeHgtzbBL^LRNJTFvL`CrB`@??dEx@hCh@??|AZzAXfCj@ZLLBL?JEHIDGf@s@??f@w@Za@tFiIvE}G??hAaBVa@DGBIDODS|@wGbCkQ"
+              },
+              "generalizedCost": 1258
+            },
+            {
+              "mode": "WALK",
+              "route": null,
+              "from": {
+                "name": "Oper/Karlsplatz U",
+                "lat": 48.2024343,
+                "lon": 16.3686879,
+                "departureTime": 1715669160000,
+                "arrivalTime": 1715669160000
+              },
+              "to": {
+                "name": "Destination",
+                "lat": 48.2016089,
+                "lon": 16.369139,
+                "departureTime": 1715669376000,
+                "arrivalTime": 1715669376000
+              },
+              "duration": 216,
+              "startTime": 1715669160000,
+              "endTime": 1715669376000,
+              "legGeometry": {
+                "points": "epeeHg_|bB@?L}@CAFa@DCBUAGCKR_@XBTJGZFFx@\\BAJD"
+              },
+              "generalizedCost": 344
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

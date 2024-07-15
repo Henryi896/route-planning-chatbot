@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h2 {
+        @apply text-3xl font-bold text-gray-800;
+    }
+
+    h3 {
+        @apply text-xl font-bold text-gray-800;
+    }
+
+    p {
+        @apply text-base;
+    }
+
+    thead {
+        @apply bg-blue-200 text-sm;
+    }
+
+    th{
+        @apply rounded-sm;
+    }
+
+    tbody {
+        @apply bg-blue-100 text-sm;
+    }
+
+    td{
+        @apply rounded-md p-1;
+    }
+}
+
+@layer components {
+    .btn-primary {
+        @apply py-2 px-5 bg-cyan-600 text-white font-semibold rounded-full shadow-md hover:bg-cyan-500;
+    }
+
+    .input-primary {
+        @apply py-2 px-5 bg-red-100 m-2 rounded hover:shadow
+    }
+
+    .txt-primary {
+        @apply text-gray-700 font-sans
+    }
+
+    .txt-itinerary-select {
+        @apply text-amber-500
+    }
+
+    .txt-table {
+        @apply text-gray-700 font-extralight text-sm text-nowrap
+    }
+
+    .txt-info{
+        @apply text-gray-700 font-sans text-left
+    }
+
+    .speech-bubble-left{
+        @apply relative m-1 mr-20 rounded-lg bg-blue-200 p-4 text-white
+    }
+
+    .speech-bubble-right{
+        @apply relative m-1 ml-20 rounded-lg bg-green-200 p-4 text-white
+    }
+
+    .tbl-primary {
+        @apply table-fixed w-full
+    }
+
+    .tbl-secondary {
+        @apply text-red-500
+    }
+
+    .temp-tr{
+        @apply col-span-7
+    }
+
+    .div-content-box {
+        @apply p-3 rounded align-top
+    }
+
+    .div-component-primary {
+        @apply m-2 rounded bg-slate-100 p-1
+    }
+
+    .div-part-of-component {
+        @apply p-2 h-auto overflow-auto rounded m-1;
+    }
+
+    .div-itinerary-box {
+        @apply px-2 py-3 rounded m-1 flex items-center;
+    }
+
+    .div-values-in-single-itinerary{
+        @apply bg-slate-300 p-2 rounded m-1;
+    }
+
+    .div-type-of-transportation{
+        @apply text-white p-2 rounded mx-1 h-5;
+    }
+
+    .color-Walk{
+        @apply bg-blue-500;
+    }
+
+    .color-Bus{
+        @apply bg-red-500
+    }
+
+    .color-Tram{
+        @apply bg-green-500
+    }
+
+    .color-Rail{
+        @apply bg-purple-500
+    }
+
+    .color-Subway{
+        @apply bg-orange-500
+    }
+
+    .color-Ferry{
+        @apply bg-yellow-500
+    }
+
+    .color-Car{
+        @apply bg-black
+    }
+
+    .color-Bicycle{
+        @apply bg-gray-400
+    }
+}

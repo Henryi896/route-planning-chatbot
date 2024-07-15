@@ -1,0 +1,35 @@
+export const result_query = `
+query prop_iti{
+    plan(
+        from: { lat: 52.3092, lon: 13.0291 }
+        to: { lat: 52.5147, lon: 13.3927 }
+        date: "2024-02-15",
+        time: "11:37",
+        transportModes: [{ mode: TRANSIT }]
+    ) {
+        itineraries {
+            legs {
+                mode
+                from {
+                    name
+                    lat
+                    lon
+                    departureTime
+                    arrivalTime
+                }
+                to {
+                    name
+                    lat
+                    lon
+                    departureTime
+                    arrivalTime
+                }
+                startTime
+                endTime
+                mode
+                generalizedCost
+            }
+        }
+    }
+}
+`

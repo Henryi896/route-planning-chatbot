@@ -1,0 +1,3161 @@
+export const result_query = `
+{
+    "data": {
+      "__schema": {
+        "types": [
+          {
+            "name": "Agency",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "id",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "gtfsId",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "name",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "url",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "timezone",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "lang",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "phone",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "fareUrl",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "routes",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "alerts",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "BikePark",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "id",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "bikeParkId",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "name",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "spacesAvailable",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "realtime",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "lon",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "lat",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "tags",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "openingHours",
+                "type": {
+                  "name": "OpeningHours"
+                }
+              }
+            ]
+          },
+          {
+            "name": "BikeRentalStation",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "id",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "stationId",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "name",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "bikesAvailable",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "spacesAvailable",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "realtime",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "allowDropoff",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "allowPickup",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "allowDropoffNow",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "allowPickupNow",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "networks",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "lon",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "lat",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "capacity",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "allowOverloading",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "rentalUris",
+                "type": {
+                  "name": "BikeRentalStationUris"
+                }
+              },
+              {
+                "name": "operative",
+                "type": {
+                  "name": "Boolean"
+                }
+              }
+            ]
+          },
+          {
+            "name": "BikeRentalStationUris",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "android",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "ios",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "web",
+                "type": {
+                  "name": "String"
+                }
+              }
+            ]
+          },
+          {
+            "name": "BikesAllowed",
+            "kind": "ENUM",
+            "fields": null
+          },
+          {
+            "name": "BookingInfo",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "contactInfo",
+                "type": {
+                  "name": "ContactInfo"
+                }
+              },
+              {
+                "name": "earliestBookingTime",
+                "type": {
+                  "name": "BookingTime"
+                }
+              },
+              {
+                "name": "latestBookingTime",
+                "type": {
+                  "name": "BookingTime"
+                }
+              },
+              {
+                "name": "minimumBookingNoticeSeconds",
+                "type": {
+                  "name": "Long"
+                }
+              },
+              {
+                "name": "maximumBookingNoticeSeconds",
+                "type": {
+                  "name": "Long"
+                }
+              },
+              {
+                "name": "message",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "pickupMessage",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "dropOffMessage",
+                "type": {
+                  "name": "String"
+                }
+              }
+            ]
+          },
+          {
+            "name": "BookingTime",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "time",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "daysPrior",
+                "type": {
+                  "name": "Int"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Boolean",
+            "kind": "SCALAR",
+            "fields": null
+          },
+          {
+            "name": "CarPark",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "id",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "carParkId",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "name",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "maxCapacity",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "spacesAvailable",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "realtime",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "lon",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "lat",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "tags",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "openingHours",
+                "type": {
+                  "name": "OpeningHours"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Cluster",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "id",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "gtfsId",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "name",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "lat",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "lon",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "stops",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "ContactInfo",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "contactPerson",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "phoneNumber",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "eMail",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "faxNumber",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "infoUrl",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "bookingUrl",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "additionalDetails",
+                "type": {
+                  "name": "String"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Coordinates",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "lat",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "lon",
+                "type": {
+                  "name": "Float"
+                }
+              }
+            ]
+          },
+          {
+            "name": "DefaultFareProduct",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "id",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "name",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "price",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "riderCategory",
+                "type": {
+                  "name": "RiderCategory"
+                }
+              },
+              {
+                "name": "medium",
+                "type": {
+                  "name": "FareMedium"
+                }
+              }
+            ]
+          },
+          {
+            "name": "DepartureRow",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "id",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "stop",
+                "type": {
+                  "name": "Stop"
+                }
+              },
+              {
+                "name": "lat",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "lon",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "pattern",
+                "type": {
+                  "name": "Pattern"
+                }
+              },
+              {
+                "name": "stoptimes",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "Duration",
+            "kind": "SCALAR",
+            "fields": null
+          },
+          {
+            "name": "FareMedium",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "id",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "name",
+                "type": {
+                  "name": "String"
+                }
+              }
+            ]
+          },
+          {
+            "name": "FareProduct",
+            "kind": "INTERFACE",
+            "fields": [
+              {
+                "name": "id",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "name",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "riderCategory",
+                "type": {
+                  "name": "RiderCategory"
+                }
+              },
+              {
+                "name": "medium",
+                "type": {
+                  "name": "FareMedium"
+                }
+              }
+            ]
+          },
+          {
+            "name": "FareProductUse",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "id",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "product",
+                "type": {
+                  "name": "FareProduct"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Feed",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "feedId",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "agencies",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "alerts",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "Itinerary",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "startTime",
+                "type": {
+                  "name": "Long"
+                }
+              },
+              {
+                "name": "endTime",
+                "type": {
+                  "name": "Long"
+                }
+              },
+              {
+                "name": "duration",
+                "type": {
+                  "name": "Long"
+                }
+              },
+              {
+                "name": "generalizedCost",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "waitingTime",
+                "type": {
+                  "name": "Long"
+                }
+              },
+              {
+                "name": "walkTime",
+                "type": {
+                  "name": "Long"
+                }
+              },
+              {
+                "name": "walkDistance",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "legs",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "elevationGained",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "elevationLost",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "arrivedAtDestinationWithRentedBicycle",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "systemNotices",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "accessibilityScore",
+                "type": {
+                  "name": "Float"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Leg",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "startTime",
+                "type": {
+                  "name": "Long"
+                }
+              },
+              {
+                "name": "endTime",
+                "type": {
+                  "name": "Long"
+                }
+              },
+              {
+                "name": "departureDelay",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "arrivalDelay",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "mode",
+                "type": {
+                  "name": "Mode"
+                }
+              },
+              {
+                "name": "duration",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "generalizedCost",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "legGeometry",
+                "type": {
+                  "name": "Geometry"
+                }
+              },
+              {
+                "name": "agency",
+                "type": {
+                  "name": "Agency"
+                }
+              },
+              {
+                "name": "realTime",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "realtimeState",
+                "type": {
+                  "name": "RealtimeState"
+                }
+              },
+              {
+                "name": "distance",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "transitLeg",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "walkingBike",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "rentedBike",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "from",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "to",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "route",
+                "type": {
+                  "name": "Route"
+                }
+              },
+              {
+                "name": "trip",
+                "type": {
+                  "name": "Trip"
+                }
+              },
+              {
+                "name": "serviceDate",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "intermediateStops",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "intermediatePlaces",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "intermediatePlace",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "steps",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "headsign",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "pickupType",
+                "type": {
+                  "name": "PickupDropoffType"
+                }
+              },
+              {
+                "name": "dropoffType",
+                "type": {
+                  "name": "PickupDropoffType"
+                }
+              },
+              {
+                "name": "interlineWithPreviousLeg",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "dropOffBookingInfo",
+                "type": {
+                  "name": "BookingInfo"
+                }
+              },
+              {
+                "name": "pickupBookingInfo",
+                "type": {
+                  "name": "BookingInfo"
+                }
+              },
+              {
+                "name": "alerts",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "nextLegs",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "rideHailingEstimate",
+                "type": {
+                  "name": "RideHailingEstimate"
+                }
+              },
+              {
+                "name": "accessibilityScore",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "fareProducts",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "LocalTimeSpan",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "from",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "to",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "LocalTimeSpanDate",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "timeSpans",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "date",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "Node",
+            "kind": "INTERFACE",
+            "fields": [
+              {
+                "name": "id",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "OpeningHours",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "osm",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "dates",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "Place",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "name",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "vertexType",
+                "type": {
+                  "name": "VertexType"
+                }
+              },
+              {
+                "name": "lat",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "lon",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "arrivalTime",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "departureTime",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "stop",
+                "type": {
+                  "name": "Stop"
+                }
+              },
+              {
+                "name": "stopPosition",
+                "type": {
+                  "name": "StopPosition"
+                }
+              },
+              {
+                "name": "vehicleRentalStation",
+                "type": {
+                  "name": "VehicleRentalStation"
+                }
+              },
+              {
+                "name": "rentalVehicle",
+                "type": {
+                  "name": "RentalVehicle"
+                }
+              },
+              {
+                "name": "vehicleParking",
+                "type": {
+                  "name": "VehicleParking"
+                }
+              }
+            ]
+          },
+          {
+            "name": "PlaceInterface",
+            "kind": "INTERFACE",
+            "fields": [
+              {
+                "name": "id",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "lat",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "lon",
+                "type": {
+                  "name": "Float"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Plan",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "date",
+                "type": {
+                  "name": "Long"
+                }
+              },
+              {
+                "name": "from",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "to",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "itineraries",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "messageEnums",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "messageStrings",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "routingErrors",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "nextPageCursor",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "previousPageCursor",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "searchWindowUsed",
+                "type": {
+                  "name": "Long"
+                }
+              },
+              {
+                "name": "debugOutput",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "PositionAtStop",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "position",
+                "type": {
+                  "name": "Int"
+                }
+              }
+            ]
+          },
+          {
+            "name": "PositionBetweenStops",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "previousPosition",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "nextPosition",
+                "type": {
+                  "name": "Int"
+                }
+              }
+            ]
+          },
+          {
+            "name": "QueryType",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "node",
+                "type": {
+                  "name": "Node"
+                }
+              },
+              {
+                "name": "feeds",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "agencies",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "ticketTypes",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "agency",
+                "type": {
+                  "name": "Agency"
+                }
+              },
+              {
+                "name": "stops",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "stopsByBbox",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "stopsByRadius",
+                "type": {
+                  "name": "stopAtDistanceConnection"
+                }
+              },
+              {
+                "name": "nearest",
+                "type": {
+                  "name": "placeAtDistanceConnection"
+                }
+              },
+              {
+                "name": "departureRow",
+                "type": {
+                  "name": "DepartureRow"
+                }
+              },
+              {
+                "name": "stop",
+                "type": {
+                  "name": "Stop"
+                }
+              },
+              {
+                "name": "station",
+                "type": {
+                  "name": "Stop"
+                }
+              },
+              {
+                "name": "stations",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "routes",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "route",
+                "type": {
+                  "name": "Route"
+                }
+              },
+              {
+                "name": "trips",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "trip",
+                "type": {
+                  "name": "Trip"
+                }
+              },
+              {
+                "name": "fuzzyTrip",
+                "type": {
+                  "name": "Trip"
+                }
+              },
+              {
+                "name": "cancelledTripTimes",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "patterns",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "pattern",
+                "type": {
+                  "name": "Pattern"
+                }
+              },
+              {
+                "name": "clusters",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "cluster",
+                "type": {
+                  "name": "Cluster"
+                }
+              },
+              {
+                "name": "alerts",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "serviceTimeRange",
+                "type": {
+                  "name": "serviceTimeRange"
+                }
+              },
+              {
+                "name": "rentalVehicles",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "rentalVehicle",
+                "type": {
+                  "name": "RentalVehicle"
+                }
+              },
+              {
+                "name": "vehicleRentalStations",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "vehicleRentalStation",
+                "type": {
+                  "name": "VehicleRentalStation"
+                }
+              },
+              {
+                "name": "vehicleParkings",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "vehicleParking",
+                "type": {
+                  "name": "VehicleParking"
+                }
+              },
+              {
+                "name": "viewer",
+                "type": {
+                  "name": "QueryType"
+                }
+              },
+              {
+                "name": "plan",
+                "type": {
+                  "name": "Plan"
+                }
+              }
+            ]
+          },
+          {
+            "name": "RentalVehicle",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "id",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "vehicleId",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "name",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "allowPickupNow",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "network",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "lon",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "lat",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "rentalUris",
+                "type": {
+                  "name": "VehicleRentalUris"
+                }
+              },
+              {
+                "name": "operative",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "vehicleType",
+                "type": {
+                  "name": "RentalVehicleType"
+                }
+              }
+            ]
+          },
+          {
+            "name": "RentalVehicleType",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "formFactor",
+                "type": {
+                  "name": "FormFactor"
+                }
+              },
+              {
+                "name": "propulsionType",
+                "type": {
+                  "name": "PropulsionType"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Route",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "id",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "gtfsId",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "agency",
+                "type": {
+                  "name": "Agency"
+                }
+              },
+              {
+                "name": "shortName",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "longName",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "mode",
+                "type": {
+                  "name": "TransitMode"
+                }
+              },
+              {
+                "name": "type",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "desc",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "url",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "color",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "textColor",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "bikesAllowed",
+                "type": {
+                  "name": "BikesAllowed"
+                }
+              },
+              {
+                "name": "patterns",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "stops",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "trips",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "alerts",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "RouteType",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "routeType",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "agency",
+                "type": {
+                  "name": "Agency"
+                }
+              },
+              {
+                "name": "routes",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "RoutingError",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "code",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "inputField",
+                "type": {
+                  "name": "InputField"
+                }
+              },
+              {
+                "name": "description",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "RoutingErrorCode",
+            "kind": "ENUM",
+            "fields": null
+          },
+          {
+            "name": "Stop",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "id",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "stopTimesForPattern",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "gtfsId",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "name",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "lat",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "lon",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "geometries",
+                "type": {
+                  "name": "StopGeometries"
+                }
+              },
+              {
+                "name": "code",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "desc",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "zoneId",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "url",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "locationType",
+                "type": {
+                  "name": "LocationType"
+                }
+              },
+              {
+                "name": "parentStation",
+                "type": {
+                  "name": "Stop"
+                }
+              },
+              {
+                "name": "wheelchairBoarding",
+                "type": {
+                  "name": "WheelchairBoarding"
+                }
+              },
+              {
+                "name": "direction",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "timezone",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "vehicleType",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "vehicleMode",
+                "type": {
+                  "name": "Mode"
+                }
+              },
+              {
+                "name": "platformCode",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "cluster",
+                "type": {
+                  "name": "Cluster"
+                }
+              },
+              {
+                "name": "stops",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "routes",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "patterns",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "transfers",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "stoptimesForServiceDate",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "stoptimesForPatterns",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "stoptimesWithoutPatterns",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "alerts",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "StopGeometries",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "geoJson",
+                "type": {
+                  "name": "GeoJson"
+                }
+              },
+              {
+                "name": "googleEncoded",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "StopOnRoute",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "stop",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "route",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "StopOnTrip",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "stop",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "trip",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "StopPosition",
+            "kind": "UNION",
+            "fields": null
+          },
+          {
+            "name": "Stoptime",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "stop",
+                "type": {
+                  "name": "Stop"
+                }
+              },
+              {
+                "name": "stopPosition",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "scheduledArrival",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "realtimeArrival",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "arrivalDelay",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "scheduledDeparture",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "realtimeDeparture",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "departureDelay",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "timepoint",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "realtime",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "realtimeState",
+                "type": {
+                  "name": "RealtimeState"
+                }
+              },
+              {
+                "name": "pickupType",
+                "type": {
+                  "name": "PickupDropoffType"
+                }
+              },
+              {
+                "name": "dropoffType",
+                "type": {
+                  "name": "PickupDropoffType"
+                }
+              },
+              {
+                "name": "serviceDay",
+                "type": {
+                  "name": "Long"
+                }
+              },
+              {
+                "name": "trip",
+                "type": {
+                  "name": "Trip"
+                }
+              },
+              {
+                "name": "headsign",
+                "type": {
+                  "name": "String"
+                }
+              }
+            ]
+          },
+          {
+            "name": "StoptimesInPattern",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "pattern",
+                "type": {
+                  "name": "Pattern"
+                }
+              },
+              {
+                "name": "stoptimes",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "String",
+            "kind": "SCALAR",
+            "fields": null
+          },
+          {
+            "name": "SystemNotice",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "tag",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "text",
+                "type": {
+                  "name": "String"
+                }
+              }
+            ]
+          },
+          {
+            "name": "TicketType",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "id",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "fareId",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "price",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "currency",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "zones",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "TransitMode",
+            "kind": "ENUM",
+            "fields": null
+          },
+          {
+            "name": "TranslatedString",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "text",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "language",
+                "type": {
+                  "name": "String"
+                }
+              }
+            ]
+          },
+          {
+            "name": "TransportMode",
+            "kind": "INPUT_OBJECT",
+            "fields": null
+          },
+          {
+            "name": "Trip",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "id",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "gtfsId",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "route",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "serviceId",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "activeDates",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "tripShortName",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "tripHeadsign",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "routeShortName",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "directionId",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "blockId",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "shapeId",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "wheelchairAccessible",
+                "type": {
+                  "name": "WheelchairBoarding"
+                }
+              },
+              {
+                "name": "bikesAllowed",
+                "type": {
+                  "name": "BikesAllowed"
+                }
+              },
+              {
+                "name": "pattern",
+                "type": {
+                  "name": "Pattern"
+                }
+              },
+              {
+                "name": "stops",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "semanticHash",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "stoptimes",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "departureStoptime",
+                "type": {
+                  "name": "Stoptime"
+                }
+              },
+              {
+                "name": "arrivalStoptime",
+                "type": {
+                  "name": "Stoptime"
+                }
+              },
+              {
+                "name": "stoptimesForDate",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "geometry",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "tripGeometry",
+                "type": {
+                  "name": "Geometry"
+                }
+              },
+              {
+                "name": "alerts",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "VehicleParking",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "id",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "vehicleParkingId",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "name",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "realtime",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "lon",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "lat",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "detailsUrl",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "imageUrl",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "tags",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "note",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "state",
+                "type": {
+                  "name": "VehicleParkingState"
+                }
+              },
+              {
+                "name": "bicyclePlaces",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "anyCarPlaces",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "carPlaces",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "wheelchairAccessibleCarPlaces",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "capacity",
+                "type": {
+                  "name": "VehicleParkingSpaces"
+                }
+              },
+              {
+                "name": "availability",
+                "type": {
+                  "name": "VehicleParkingSpaces"
+                }
+              },
+              {
+                "name": "openingHours",
+                "type": {
+                  "name": "OpeningHours"
+                }
+              }
+            ]
+          },
+          {
+            "name": "VehicleParkingInput",
+            "kind": "INPUT_OBJECT",
+            "fields": null
+          },
+          {
+            "name": "VehicleParkingSpaces",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "bicycleSpaces",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "carSpaces",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "wheelchairAccessibleCarSpaces",
+                "type": {
+                  "name": "Int"
+                }
+              }
+            ]
+          },
+          {
+            "name": "VehicleParkingState",
+            "kind": "ENUM",
+            "fields": null
+          },
+          {
+            "name": "VehiclePosition",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "vehicleId",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "label",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "lat",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "lon",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "stopRelationship",
+                "type": {
+                  "name": "StopRelationship"
+                }
+              },
+              {
+                "name": "speed",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "heading",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "lastUpdated",
+                "type": {
+                  "name": "Long"
+                }
+              },
+              {
+                "name": "trip",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "VehicleRentalStation",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "id",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "stationId",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "name",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "vehiclesAvailable",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "spacesAvailable",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "realtime",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "allowDropoff",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "allowPickup",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "allowDropoffNow",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "allowPickupNow",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "network",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "lon",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "lat",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "capacity",
+                "type": {
+                  "name": "Int"
+                }
+              },
+              {
+                "name": "allowOverloading",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "rentalUris",
+                "type": {
+                  "name": "VehicleRentalUris"
+                }
+              },
+              {
+                "name": "operative",
+                "type": {
+                  "name": "Boolean"
+                }
+              }
+            ]
+          },
+          {
+            "name": "VehicleRentalUris",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "android",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "ios",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "web",
+                "type": {
+                  "name": "String"
+                }
+              }
+            ]
+          },
+          {
+            "name": "VehicleStopStatus",
+            "kind": "ENUM",
+            "fields": null
+          },
+          {
+            "name": "VertexType",
+            "kind": "ENUM",
+            "fields": null
+          },
+          {
+            "name": "WheelchairBoarding",
+            "kind": "ENUM",
+            "fields": null
+          },
+          {
+            "name": "__Directive",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "name",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "description",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "isRepeatable",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "locations",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "args",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "__DirectiveLocation",
+            "kind": "ENUM",
+            "fields": null
+          },
+          {
+            "name": "__EnumValue",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "name",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "description",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "isDeprecated",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "deprecationReason",
+                "type": {
+                  "name": "String"
+                }
+              }
+            ]
+          },
+          {
+            "name": "__Field",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "name",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "description",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "args",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "type",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "isDeprecated",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "deprecationReason",
+                "type": {
+                  "name": "String"
+                }
+              }
+            ]
+          },
+          {
+            "name": "__InputValue",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "name",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "description",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "type",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "defaultValue",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "isDeprecated",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "deprecationReason",
+                "type": {
+                  "name": "String"
+                }
+              }
+            ]
+          },
+          {
+            "name": "__Schema",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "description",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "types",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "queryType",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "mutationType",
+                "type": {
+                  "name": "__Type"
+                }
+              },
+              {
+                "name": "directives",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "subscriptionType",
+                "type": {
+                  "name": "__Type"
+                }
+              }
+            ]
+          },
+          {
+            "name": "__Type",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "kind",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "name",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "description",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "fields",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "interfaces",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "possibleTypes",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "enumValues",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "inputFields",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "ofType",
+                "type": {
+                  "name": "__Type"
+                }
+              },
+              {
+                "name": "specifiedByURL",
+                "type": {
+                  "name": "String"
+                }
+              }
+            ]
+          },
+          {
+            "name": "__TypeKind",
+            "kind": "ENUM",
+            "fields": null
+          },
+          {
+            "name": "debugOutput",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "totalTime",
+                "type": {
+                  "name": "Long"
+                }
+              },
+              {
+                "name": "pathCalculationTime",
+                "type": {
+                  "name": "Long"
+                }
+              },
+              {
+                "name": "precalculationTime",
+                "type": {
+                  "name": "Long"
+                }
+              },
+              {
+                "name": "renderingTime",
+                "type": {
+                  "name": "Long"
+                }
+              },
+              {
+                "name": "timedOut",
+                "type": {
+                  "name": "Boolean"
+                }
+              }
+            ]
+          },
+          {
+            "name": "elevationProfileComponent",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "distance",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "elevation",
+                "type": {
+                  "name": "Float"
+                }
+              }
+            ]
+          },
+          {
+            "name": "fare",
+            "kind": "OBJECT",
+            "fields": []
+          },
+          {
+            "name": "fareComponent",
+            "kind": "OBJECT",
+            "fields": []
+          },
+          {
+            "name": "placeAtDistance",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "id",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "place",
+                "type": {
+                  "name": "PlaceInterface"
+                }
+              },
+              {
+                "name": "distance",
+                "type": {
+                  "name": "Int"
+                }
+              }
+            ]
+          },
+          {
+            "name": "placeAtDistanceConnection",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "edges",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "pageInfo",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "placeAtDistanceEdge",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "node",
+                "type": {
+                  "name": "placeAtDistance"
+                }
+              },
+              {
+                "name": "cursor",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "serviceTimeRange",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "start",
+                "type": {
+                  "name": "Long"
+                }
+              },
+              {
+                "name": "end",
+                "type": {
+                  "name": "Long"
+                }
+              }
+            ]
+          },
+          {
+            "name": "step",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "distance",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "lon",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "lat",
+                "type": {
+                  "name": "Float"
+                }
+              },
+              {
+                "name": "elevationProfile",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "relativeDirection",
+                "type": {
+                  "name": "RelativeDirection"
+                }
+              },
+              {
+                "name": "absoluteDirection",
+                "type": {
+                  "name": "AbsoluteDirection"
+                }
+              },
+              {
+                "name": "streetName",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "exit",
+                "type": {
+                  "name": "String"
+                }
+              },
+              {
+                "name": "stayOn",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "area",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "bogusName",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "walkingBike",
+                "type": {
+                  "name": "Boolean"
+                }
+              },
+              {
+                "name": "alerts",
+                "type": {
+                  "name": null
+                }
+              }
+            ]
+          },
+          {
+            "name": "stopAtDistance",
+            "kind": "OBJECT",
+            "fields": [
+              {
+                "name": "id",
+                "type": {
+                  "name": null
+                }
+              },
+              {
+                "name": "stop",
+                "type": {
+                  "name": "Stop"
+                }
+              },
+              {
+                "name": "distance",
+                "type": {
+                  "name": "Int"
+                }
+              }
+            ]
+          },
+        ]
+      }
+    }
+  }
+`

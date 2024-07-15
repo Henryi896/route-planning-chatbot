@@ -1,0 +1,6565 @@
+{
+  "data": [
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 331,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "ARC",
+          "icao": "PARC"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "FAI",
+          "icao": "PAFA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "VEE"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "03fe4ff60399d7f995f4c00212821664dd0396f3b9a1aee5d5a9e30f05a386fc"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 360,
+      "sequenceNumber": 2,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "KBC"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "CIK",
+          "icao": "PACI"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "FYU"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "06ca3a0f614171887839d5764ba0b9441b142d56fa297545ab601438f6d93bfe"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 360,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "FAI",
+          "icao": "PAFA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "CIK",
+          "icao": "PACI"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 2,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "KBC"
+            },
+            {
+              "sequenceNumber": 1,
+              "station": "FYU"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "1e59f52140462f27ce809d5cd6ea0a1b2f1b68d1cca63b1afc09525ab67db8c4"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 380,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "FAI",
+          "icao": "PAFA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "AET"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "BTT"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "26085ec6ed5822ecd22379335b02d5628d49ad9aab43bd975c09ffc2635e5c29"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 650,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "BRW",
+          "icao": "PABR"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "AIN"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "ATK"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "28b3ed542f82432c1a51dc60eb969ce0f8bc4e519db71e6731afe4b613ac0a8e"
+    },
+    {
+      "carrier": {
+        "iata": "7R",
+        "icao": "RLU"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 841,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "SVX",
+          "icao": "USSS"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "19:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "ARH",
+          "icao": "ULAA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "21:00"
+        }
+      },
+      "elapsedTime": 120,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "NNM"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "29c976fe60d6ffccf665cb43bc0bebe6962dc514bd34c563428d0e1523416ca3"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 452,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "FAI",
+          "icao": "PAFA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "HSL",
+          "icao": "PAHL"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 2,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "RBY"
+            },
+            {
+              "sequenceNumber": 1,
+              "station": "GAL"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "2bdfabe87f21c64d81c5db57efac993701a96159de8aa8051fc921d1cae6eb37"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 361,
+      "sequenceNumber": 2,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "FYU",
+          "icao": "PFYU"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "FAI",
+          "icao": "PAFA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "KBC"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "3898d07fc384930042e79780931b93d4f46d0ea31c2394d09d464f588177db06"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 380,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "FAI",
+          "icao": "PAFA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "HUS",
+          "icao": "PAHU"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 2,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "BTT"
+            },
+            {
+              "sequenceNumber": 1,
+              "station": "AET"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "410a268ce05f8dfb6d8e3d33c39592d86adbe855b2ffa0c81287ad710cb31fbb"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 460,
+      "sequenceNumber": 2,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "GAL",
+          "icao": "PAGA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "KYU",
+          "icao": "PFKU"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "NUL"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "50db8428e8954f246f9a5483cadd48d0b3248bfc9787d3fa2c6965c8492d4408"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 341,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "VEE",
+          "icao": "PAVE"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "FAI",
+          "icao": "PAFA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "FYU"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "5d68119c5d5de5e915bcb5be28ceae77bf4b8baabaee6d5eda4e74f657e50e23"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 361,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "CIK",
+          "icao": "PACI"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "FAI",
+          "icao": "PAFA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 2,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "FYU"
+            },
+            {
+              "sequenceNumber": 1,
+              "station": "KBC"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "6192267a826af801db323fa8295979b5a900dddee4ca289fa7397cd376fde4d6"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 481,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "KAL",
+          "icao": "PAKV"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "FAI",
+          "icao": "PAFA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "GAL"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "684cf23631e9709a29d4f29a427434779febbc554519ab85ba6b55059f2b4825"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 453,
+      "sequenceNumber": 2,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "GAL",
+          "icao": "PAGA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "FAI",
+          "icao": "PAFA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "RBY"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "73f0ed20725a47b792fcdd1452d07ffa6cb72fecfa3b49419a3fd249710db939"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 452,
+      "sequenceNumber": 2,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "RBY",
+          "icao": "PARY"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "HSL",
+          "icao": "PAHL"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "GAL"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "7419bf4a49243a36fd5611baaa7a3356ab13de07de79d0ec7c3745bcc8d46b16"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 656,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "SCC",
+          "icao": "PASC"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "BRW",
+          "icao": "PABR"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "NUI"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "7f21e432a872ddc8ae440230cc525a61b9e210637369843ccf37fefaee3756ff"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 380,
+      "sequenceNumber": 2,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "BTT",
+          "icao": "PABT"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "HUS",
+          "icao": "PAHU"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "AET"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "84aa44c20dcfe714da4643a81846bb87ffb38c82cfa430f81e77dd574261f9e0"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 460,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "FAI",
+          "icao": "PAFA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "NUL",
+          "icao": "PANU"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "GAL"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "952cdbc5b82994e374d09c5fee87adfbfc6cfcd0d357e5bbecb5bd4df3d87c81"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 675,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "BRW",
+          "icao": "PABR"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "ATK",
+          "icao": "PATQ"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "AIN"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "956f3a0c47df60854a2368b1a1479e7c65531b215ab3f5a403897128c1296545"
+    },
+    {
+      "carrier": {
+        "iata": "7R",
+        "icao": "RLU"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 842,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "ARH",
+          "icao": "ULAA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "21:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "SVX",
+          "icao": "USSS"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "19:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "NNM"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "9ceb3b8009b40fcd92f7bc6e938965dd176613b86df0347fef18a6d36923f297"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 460,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "FAI",
+          "icao": "PAFA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "KYU",
+          "icao": "PFKU"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 2,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "GAL"
+            },
+            {
+              "sequenceNumber": 1,
+              "station": "NUL"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "a637a6d698b7525659ff17076c7c7357a57ccc585179bec8d72c451a2c4e3090"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 480,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "FAI",
+          "icao": "PAFA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "KAL",
+          "icao": "PAKV"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "GAL"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "a7d4918699225ddc709ae9675a48002ad5b9af7d7432d03574731b2c081145b4"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 361,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "CIK",
+          "icao": "PACI"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "KBC"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "FYU"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "b4962c184b9e739e2fbd00e35a83251520a8fa0273d04b6e6223c453adda9aba"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 453,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "HSL",
+          "icao": "PAHL"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "FAI",
+          "icao": "PAFA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 2,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "GAL"
+            },
+            {
+              "sequenceNumber": 1,
+              "station": "RBY"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "c042ea8f3b90625a38ea8ffc9eb3a3eda8fa58fbe70fa0d21780f3bab0653efb"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 490,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "FAI",
+          "icao": "PAFA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "NUL",
+          "icao": "PANU"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "GAL"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "c2c112ec2ce3e121661cb90493ba4ee153d8182498443e62cd6c8a3b87cf2812"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 330,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "FAI",
+          "icao": "PAFA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "ARC",
+          "icao": "PARC"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "VEE"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "c64f88438643635552d7d6e92e436025d592de96dd0c3755b5a8c8ddf43d06ff"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 452,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "FAI",
+          "icao": "PAFA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "GAL",
+          "icao": "PAGA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "RBY"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "d1a6f3f909421f516ba30a1e0471e467ea485d199f57a016986bea070bd3a068"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 655,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "BRW",
+          "icao": "PABR"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "SCC",
+          "icao": "PASC"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "NUI"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "d6dbdabc5bc506b86b4eb1a07bd377e91d4ef1bb45cb3ee116625f389711d15f"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 453,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "HSL",
+          "icao": "PAHL"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "RBY",
+          "icao": "PARY"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "GAL"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "d7053af744c028140c5bc92b1a4f3334294bea7dd17d7c0e538a3e6a602930ed"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 340,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "FAI",
+          "icao": "PAFA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "VEE",
+          "icao": "PAVE"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "FYU"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "da40d5b04ea92dc90b0680b8cf851c1a14403d3bfb5f2b0eee439e55762b38a0"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 601,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "SCC",
+          "icao": "PASC"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "FAI",
+          "icao": "PAFA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "BTI"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "e721375f27f38e4584d2ca3a73fe46715b70553b0fe8b50665d8be0443163ded"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 600,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "FAI",
+          "icao": "PAFA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "SCC",
+          "icao": "PASC"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "BTI"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "e93a83884f298a4defb072545feb959167a3f14c93e5b855612cbde37b15205a"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 491,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "NUL",
+          "icao": "PANU"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "FAI",
+          "icao": "PAFA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "GAL"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "eda56b5258277c6063cc15b55e14375b09f2d2d2c6b865dcb3081ade129602d8"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 360,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "FAI",
+          "icao": "PAFA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "FYU",
+          "icao": "PFYU"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "KBC"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "fc35fb4a5e4b81a13ba12f51edded423366275a292155f1ea5915d075f7edf7d"
+    },
+    {
+      "carrier": {
+        "iata": "8V",
+        "icao": "WRF"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 461,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "KYU",
+          "icao": "PFKU"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "FAI",
+          "icao": "PAFA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "GAL"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "ff3e8064b3a82de91bb7482465d6ce26a29c33c014d8c64fda1f3bdb96b706d3"
+    },
+    {
+      "carrier": {
+        "iata": "CX",
+        "icao": "CPA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 36,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "TPE",
+          "icao": "RCTP"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "KIX"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "7f97a06ac1850b6722a96b5ad866fc6cebe5581a2692d041c82c82e08dcba2cb"
+    },
+    {
+      "carrier": {
+        "iata": "CX",
+        "icao": "CPA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 5,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "NRT",
+          "icao": "RJAA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "15:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "elapsedTime": 60,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "TPE"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "af274b327c92356df53763ba0a6fe52ddacf687af96609f92d59b44a1f594859"
+    },
+    {
+      "carrier": {
+        "iata": "PO",
+        "icao": "PAC"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 948,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "CVG",
+          "icao": "KCVG"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "04:00"
+        }
+      },
+      "elapsedTime": 720,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "ANC"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "0947e905dfb7fa0f36c378fca27bf301915e6da57bf45c55ca44673b945f7bca"
+    },
+    {
+      "carrier": {
+        "iata": "CX",
+        "icao": "CPA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 86,
+      "sequenceNumber": 2,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "ANC",
+          "icao": "PANC"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "MEX",
+          "icao": "MMMX"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-02",
+          "utc": "2024-05-02"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "06:00"
+        }
+      },
+      "elapsedTime": 1320,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "LAX"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "0cb77a628e9199cd32ce483d568cd5570cf03184b91d0d56441c838f4acd1b00"
+    },
+    {
+      "carrier": {
+        "iata": "CX",
+        "icao": "CPA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 94,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "JFK",
+          "icao": "KJFK"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "04:00"
+        }
+      },
+      "elapsedTime": 720,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "ANC"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "12e2bdbdd4693a272d2a40e78c596a48c56f673232598ecf893c9c8a32f6e25f"
+    },
+    {
+      "carrier": {
+        "iata": "CX",
+        "icao": "CPA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 41,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "CCU",
+          "icao": "VECC"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "18:30"
+        }
+      },
+      "elapsedTime": 150,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "DEL"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "12f6e873a688d12ea94e932874c2eeca002221f1b9e2f6a7a774bc8da428787b"
+    },
+    {
+      "carrier": {
+        "iata": "CX",
+        "icao": "CPA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 95,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "JFK",
+          "icao": "KJFK"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "04:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-03",
+          "utc": "2024-05-02"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "elapsedTime": 2160,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 2,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "YYC"
+            },
+            {
+              "sequenceNumber": 1,
+              "station": "ANC"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "1b8618323f230ed2a63f48e9bb0df3087e537073d778521c360627694ccdcc62"
+    },
+    {
+      "carrier": {
+        "iata": "CX",
+        "icao": "CPA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 86,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "MEX",
+          "icao": "MMMX"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-02",
+          "utc": "2024-05-02"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "06:00"
+        }
+      },
+      "elapsedTime": 2280,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 2,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "ANC"
+            },
+            {
+              "sequenceNumber": 1,
+              "station": "LAX"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "1d5318c12bc4717bb12f73344dc6642bae736fce62dfa10749561d8f734d1d67"
+    },
+    {
+      "carrier": {
+        "iata": "CX",
+        "icao": "CPA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 95,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "JFK",
+          "icao": "KJFK"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "04:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "ANC",
+          "icao": "PANC"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-02",
+          "utc": "2024-05-02"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 1680,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "YYC"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "1ec4ebabb38d6910c732d03fddddafb97c533f0c8f9129bab29ae800b139de82"
+    },
+    {
+      "carrier": {
+        "iata": "CX",
+        "icao": "CPA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 3242,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "CGK",
+          "icao": "WIII"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "17:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-02",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "elapsedTime": 1380,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 2,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "PEN"
+            },
+            {
+              "sequenceNumber": 1,
+              "station": "SGN"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "3077d4cbcb2d8f1d3ce72db542d08498b1066153c990e8dbd83d98e0d65c4108"
+    },
+    {
+      "carrier": {
+        "iata": "CX",
+        "icao": "CPA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 3272,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "DFW",
+          "icao": "KDFW"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-02",
+          "utc": "2024-05-02"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "05:00"
+        }
+      },
+      "elapsedTime": 2220,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 2,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "ANC"
+            },
+            {
+              "sequenceNumber": 1,
+              "station": "MIA"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "38bc75736c88949c2d8f1627f09d8fa03cd4570b07cf0bed4f29fa27a21a758c"
+    },
+    {
+      "carrier": {
+        "iata": "Y8",
+        "icao": "YZR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 7456,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "ORD",
+          "icao": "KORD"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "05:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "PVG",
+          "icao": "ZSPD"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-02",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "06:50",
+          "utc": "22:50"
+        }
+      },
+      "elapsedTime": 1070,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "ANC"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "4159db761f77f37283dae6d09436f8829c61a9aafc4d850889f2c562bde1e6cb"
+    },
+    {
+      "carrier": {
+        "iata": "CX",
+        "icao": "CPA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 94,
+      "sequenceNumber": 2,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "ANC",
+          "icao": "PANC"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "YYC",
+          "icao": "CYYC"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-02",
+          "utc": "2024-05-02"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "06:00"
+        }
+      },
+      "elapsedTime": 1320,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "JFK"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "4895c4fb3ae29cf9d2568247b7689b2fd96aac7f3876b382ae37ab777ad63059"
+    },
+    {
+      "carrier": {
+        "iata": "CX",
+        "icao": "CPA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 17,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "CMB",
+          "icao": "VCBI"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-02",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "18:30"
+        }
+      },
+      "elapsedTime": 1590,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "MAA"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "6317b57d75aa4512628f3b84cdc24904b5161670f2c4cedcabd18e3a608760a9"
+    },
+    {
+      "carrier": {
+        "iata": "Y8",
+        "icao": "YZR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 7456,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "ORD",
+          "icao": "KORD"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "05:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "ANC",
+          "icao": "PANC"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "03:30",
+          "utc": "11:30"
+        }
+      },
+      "elapsedTime": 390,
+      "aircraftType": {
+        "iata": "74F"
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "6bc1f84fb9435cb6e7f0086b0ca0fea7d1c6aab55bc443698bb19095f81f4e06",
+      "statusKey": "1de98a6e2095d1d75ebf095578cfe46942dcf8b882de3221447078e33682a992"
+    },
+    {
+      "carrier": {
+        "iata": "CX",
+        "icao": "CPA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 3272,
+      "sequenceNumber": 2,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "ANC",
+          "icao": "PANC"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "DFW",
+          "icao": "KDFW"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-02",
+          "utc": "2024-05-02"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "05:00"
+        }
+      },
+      "elapsedTime": 1260,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "MIA"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "76f909662da56ec2ea1dbc12fc99c8a65dc41e1804411b044824762e03ea7a92"
+    },
+    {
+      "carrier": {
+        "iata": "CX",
+        "icao": "CPA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 86,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LAX",
+          "icao": "KLAX"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "07:00"
+        }
+      },
+      "elapsedTime": 900,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "ANC"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "85e757babe50d0f54d706cecc942f93db18c93ff23bb9a96cefb067a21eb0bf9"
+    },
+    {
+      "carrier": {
+        "iata": "CX",
+        "icao": "CPA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 3272,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "MIA",
+          "icao": "KMIA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-02",
+          "utc": "2024-05-02"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "04:00"
+        }
+      },
+      "elapsedTime": 2160,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "ANC"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "8977f63f3aadd51462cdc28b6508e0bec8309eb10eb4f6dac395b6179990ce23"
+    },
+    {
+      "carrier": {
+        "iata": "CX",
+        "icao": "CPA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 94,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "YYC",
+          "icao": "CYYC"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-02",
+          "utc": "2024-05-02"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "06:00"
+        }
+      },
+      "elapsedTime": 2280,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 2,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "ANC"
+            },
+            {
+              "sequenceNumber": 1,
+              "station": "JFK"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "8bd7a1494d180f5a5b5f1495f416f1b13efd067b975090917ed94148cd56d80a"
+    },
+    {
+      "carrier": {
+        "iata": "PO",
+        "icao": "PAC"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 7970,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "CVG",
+          "icao": "KCVG"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "04:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-03",
+          "utc": "2024-05-02"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "elapsedTime": 2160,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "ICN"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "8e177594dc3ff717447cbcef7953763dc3612d5ab1d5da43c2cd412f54aedc39"
+    },
+    {
+      "carrier": {
+        "iata": "CX",
+        "icao": "CPA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 3242,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "CGK",
+          "icao": "WIII"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "17:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "SGN",
+          "icao": "VVTS"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-02",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "17:00"
+        }
+      },
+      "elapsedTime": 1440,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "PEN"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "99f1745e1aab74a3044d2e382177fb45d8aeb83c2b956c46258898a68576dd87"
+    },
+    {
+      "carrier": {
+        "iata": "PO",
+        "icao": "PAC"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 7680,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "CVG",
+          "icao": "KCVG"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "04:00"
+        }
+      },
+      "elapsedTime": 720,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "ANC"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "b0ac339c856a7c74f7c3ea8b0a7b6c20224f8c80450f570ed2b63ae05fc4428b"
+    },
+    {
+      "carrier": {
+        "iata": "CX",
+        "icao": "CPA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 35,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "KIX",
+          "icao": "RJBB"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "15:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-02",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "elapsedTime": 1500,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "TPE"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "dde889c6b68015cd071272b55d2fecd514960528cc760941cacaa89fcfc6361c"
+    },
+    {
+      "carrier": {
+        "iata": "CX",
+        "icao": "CPA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 3261,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "CKG",
+          "icao": "ZUCK"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "CTU"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "ebc058045cec4caeca846c0c3dbfa06f0e98a70f07466901d078587e5a5a21e3"
+    },
+    {
+      "carrier": {
+        "iata": "CX",
+        "icao": "CPA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 51,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "PVG",
+          "icao": "ZSPD"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "elapsedTime": 0,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "CGO"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "f0e73b22d6c074904c71afe22e3c462d78de83104be2fa75eb7177d6ca6640ee"
+    },
+    {
+      "carrier": {
+        "iata": "PO",
+        "icao": "PAC"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 998,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "PVG",
+          "icao": "ZSPD"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "CVG",
+          "icao": "KCVG"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "04:00"
+        }
+      },
+      "elapsedTime": 720,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "ANC"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "0068c90d4d13bffc5fda069aad9467944b4e6d05ca4adaba35120d809ae274c4"
+    },
+    {
+      "carrier": {
+        "iata": "PO",
+        "icao": "PAC"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 238,
+      "sequenceNumber": 2,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "ICN",
+          "icao": "RKSI"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "15:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LAX",
+          "icao": "KLAX"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "07:00"
+        }
+      },
+      "elapsedTime": 960,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "ANC"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "15bc4e8314dd8ec8c8b94026cf1e50e0ad0e198b09b40b30e0b24cfefb9d362c"
+    },
+    {
+      "carrier": {
+        "iata": "PO",
+        "icao": "PAC"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 238,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "ANC",
+          "icao": "PANC"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "elapsedTime": 960,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "ICN"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "7e467def64571e0932229b14f1a4757d073a917be46c4782d2142ac6d18313e0"
+    },
+    {
+      "carrier": {
+        "iata": "PO",
+        "icao": "PAC"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 718,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "PVG",
+          "icao": "ZSPD"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LAX",
+          "icao": "KLAX"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "07:00"
+        }
+      },
+      "elapsedTime": 900,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "ANC"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "aa51a953abb68799a79ccb6fb8d5f5ea32687e7d9a8cf0d0f1d08d3b0e74f9ed"
+    },
+    {
+      "carrier": {
+        "iata": "PO",
+        "icao": "PAC"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 949,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "CVG",
+          "icao": "KCVG"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "04:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-02",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "elapsedTime": 720,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "ICN"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "afcba31660b04d13c134b7749f32f77bacd398ccf6d988e989680052c820d95d"
+    },
+    {
+      "carrier": {
+        "iata": "PO",
+        "icao": "PAC"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 238,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LAX",
+          "icao": "KLAX"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "07:00"
+        }
+      },
+      "elapsedTime": 900,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 2,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "ICN"
+            },
+            {
+              "sequenceNumber": 1,
+              "station": "ANC"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "c74ae4218b1b48bd673cc01bb15a2d169df29be9aaaa121c42a3037082193517"
+    },
+    {
+      "carrier": {
+        "iata": "PO",
+        "icao": "PAC"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 717,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "LAX",
+          "icao": "KLAX"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "07:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "PVG",
+          "icao": "ZSPD"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-03",
+          "utc": "2024-05-02"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "elapsedTime": 1980,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 2,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "NRT"
+            },
+            {
+              "sequenceNumber": 1,
+              "station": "ICN"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "0cf6c4cc71c9db924c3e8fc6fd7c59f3e84522c7c6470d39640855a23a39a11e"
+    },
+    {
+      "carrier": {
+        "iata": "PO",
+        "icao": "PAC"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 717,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "LAX",
+          "icao": "KLAX"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "07:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "ICN",
+          "icao": "RKSI"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-02",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "15:00"
+        }
+      },
+      "elapsedTime": 480,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "NRT"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "171342d275e826576a4cf155c5d0cfaf7dc4f73a44c7950e0039747068d98d78"
+    },
+    {
+      "carrier": {
+        "iata": "PO",
+        "icao": "PAC"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 213,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "CVG",
+          "icao": "KCVG"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "04:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "ICN",
+          "icao": "RKSI"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-02",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "15:00"
+        }
+      },
+      "elapsedTime": 660,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "NRT"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "3f1a5ecb009b8fff0af5c42489643e16670b149c5e6c96c6869f47a9c3a770d9"
+    },
+    {
+      "carrier": {
+        "iata": "PO",
+        "icao": "PAC"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 927,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "LAX",
+          "icao": "KLAX"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "07:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-03",
+          "utc": "2024-05-02"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "elapsedTime": 1980,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "ICN"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "9520f600ea3be07271ff82a4d740b33201236736413a3773831bffaaaf7407f5"
+    },
+    {
+      "carrier": {
+        "iata": "PO",
+        "icao": "PAC"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 243,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "CVG",
+          "icao": "KCVG"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "04:00"
+        }
+      },
+      "elapsedTime": 720,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "ANC"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "adc5f9d2e33444b39f5655effc33289b74afa9434de1a0d3aadecc5bad74ee12"
+    },
+    {
+      "carrier": {
+        "iata": "QT",
+        "icao": "TPA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 707,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "MIA",
+          "icao": "KMIA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "04:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "MDE",
+          "icao": "SKRG"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "05:00"
+        }
+      },
+      "elapsedTime": 60,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "CLO"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "c444cf1cfd5a7396f17531383c99256f55d635b7d594aad406da300f6f9a2695"
+    },
+    {
+      "carrier": {
+        "iata": "PO",
+        "icao": "PAC"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 947,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "CVG",
+          "icao": "KCVG"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "04:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "HKG",
+          "icao": "VHHH"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-02",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "elapsedTime": 720,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "ANC"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "f9e477820cfbe0964a97a1c2a0dd6a48b617b2f952c69e69513218ab70e091d3"
+    },
+    {
+      "carrier": {
+        "iata": "PO",
+        "icao": "PAC"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 752,
+      "sequenceNumber": 2,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "ANC",
+          "icao": "PANC"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "08:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "MIA",
+          "icao": "KMIA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-02",
+          "utc": "2024-05-02"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "04:00"
+        }
+      },
+      "elapsedTime": 1200,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "CVG"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "02f6959ac88a4f1bb5121c5766b8eb3238a1593b11a9b4450064619cf5644af7"
+    },
+    {
+      "carrier": {
+        "iata": "PO",
+        "icao": "PAC"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 752,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "NRT",
+          "icao": "RJAA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "15:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "CVG",
+          "icao": "KCVG"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "04:00"
+        }
+      },
+      "elapsedTime": 780,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "ANC"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "097bf5d7748dbd36e9a500c3d64b423cc44e32d6374d2cb671b73c9f784dd4e1"
+    },
+    {
+      "carrier": {
+        "iata": "Y8",
+        "icao": "YZR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 7458,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "ORD",
+          "icao": "KORD"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "05:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "ANC",
+          "icao": "PANC"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "03:30",
+          "utc": "11:30"
+        }
+      },
+      "elapsedTime": 390,
+      "aircraftType": {
+        "iata": "74F"
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "c3d6b25df9fe5a29bc22dac8af4a30fb4c90a7ff8a60e3bf43fb6f85ff6d7867",
+      "statusKey": "f9a5e791317fd71dc3beaced159f8c34c2887571aef825129bf34b2b26ed852e"
+    },
+    {
+      "carrier": {
+        "iata": "Y8",
+        "icao": "YZR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 7454,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "ORD",
+          "icao": "KORD"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "05:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "NKG",
+          "icao": "ZSNJ"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-02",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "05:45",
+          "utc": "21:45"
+        }
+      },
+      "elapsedTime": 1005,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "ANC"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "4a771ae2e0e91b3ad0a13a836d9f077bcad2ec6d13a2f6319a51d6fcadd38cf0"
+    },
+    {
+      "carrier": {
+        "iata": "Y8",
+        "icao": "YZR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 7454,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "ORD",
+          "icao": "KORD"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "05:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "ANC",
+          "icao": "PANC"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "03:30",
+          "utc": "11:30"
+        }
+      },
+      "elapsedTime": 390,
+      "aircraftType": {
+        "iata": "74F"
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "a5d962dd7e90062528e55be3f10b6c36cf5afbfd54501bf7e3e46a2dd874f50f",
+      "statusKey": "799a0cb0cf185ed4cbcfc01a607c7adc215cb137f53424355f7b3979fcce6ae6"
+    },
+    {
+      "carrier": {
+        "iata": "Y8",
+        "icao": "YZR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 7452,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "ORD",
+          "icao": "KORD"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "05:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "NKG",
+          "icao": "ZSNJ"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-02",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "05:45",
+          "utc": "21:45"
+        }
+      },
+      "elapsedTime": 1005,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "ANC"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "853897e4e578550b9428c05761cf19330f4edf9bef75a4095ca4f599157ffc57"
+    },
+    {
+      "carrier": {
+        "iata": "Y8",
+        "icao": "YZR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 7452,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "ORD",
+          "icao": "KORD"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "05:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "ANC",
+          "icao": "PANC"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "03:30",
+          "utc": "11:30"
+        }
+      },
+      "elapsedTime": 390,
+      "aircraftType": {
+        "iata": "74F"
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "febd71be2b0f338b171cf132c4de6594aa9e52ea6ec4b7d64e0d7edf1b26015e",
+      "statusKey": "8aecf4477f8d0e8b0295a9f9eba8699b6b0e1e0e04a138962e2bafd9d4f56b88"
+    },
+    {
+      "carrier": {
+        "iata": "FR",
+        "icao": "RYR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 8140,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "IBZ",
+          "icao": "LEIB"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "22:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "BCN",
+          "icao": "LEBL"
+        },
+        "terminal": "2",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:55",
+          "utc": "22:55"
+        }
+      },
+      "elapsedTime": 55,
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "ce3a93d27e012cb34bd171bb06078ba1b56bc3489a00c0b7edf91cf3f21d56cb",
+      "statusKey": "00ebe63de6e75632dd85717ab972088774c81dc39f35e85d880f4b4381cda06f"
+    },
+    {
+      "carrier": {
+        "iata": "NH",
+        "icao": "ANA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 8030,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "KIX",
+          "icao": "RJBB"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "15:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "NRT",
+          "icao": "RJAA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "11:00",
+          "utc": "02:00"
+        }
+      },
+      "elapsedTime": 660,
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceType": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "28253ffca2e373b086317779ab4f676492808a7ea29be7446a67373d1ca4d3ff",
+      "statusKey": "ded2019427f5eb4546aa11d033d55b322f52ccb5e7ca04cc884e0829875e28a9"
+    },
+    {
+      "carrier": {
+        "iata": "NH",
+        "icao": "ANA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 8020,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "KIX",
+          "icao": "RJBB"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "15:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "HND",
+          "icao": "RJTT"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "10:00",
+          "utc": "01:00"
+        }
+      },
+      "elapsedTime": 600,
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceType": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "e1b55e959a3cd6ba577ad57b04c4e6efde8f02c9c72cd40b3a9a061f940256ea",
+      "statusKey": "c4989c30cd0cff1c3a125081f87183fc620a6420289d62cc54e955c682219519"
+    },
+    {
+      "carrier": {
+        "iata": "RJ",
+        "icao": "RJA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 521,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMM",
+          "icao": "OJAI"
+        },
+        "terminal": "",
+        "country": {
+          "code": "JO"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "21:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "TIP",
+          "icao": "HLLT"
+        },
+        "terminal": "",
+        "country": {
+          "code": "LY"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "02:50",
+          "utc": "00:50"
+        }
+      },
+      "elapsedTime": 230,
+      "aircraftType": {
+        "iata": "319"
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "c5929efbf68db19da8dfb29924123a13bdd4479b5bbd725232307271b345724d",
+      "statusKey": "fb83b15b67e3b46528da9d9a3b7f7da08f34bedf43305a330f26f5f4773d3a7f"
+    },
+    {
+      "carrier": {
+        "iata": "7L",
+        "icao": "AZG"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 4762,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "LCK",
+          "icao": "KLCK"
+        },
+        "terminal": "",
+        "country": {
+          "code": "US"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "04:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "GYD",
+          "icao": "UBBB"
+        },
+        "terminal": "",
+        "country": {
+          "code": "AZ"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "21:00",
+          "utc": "17:00"
+        }
+      },
+      "elapsedTime": 780,
+      "aircraftType": {
+        "iata": "74Y"
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "5ff2990662f90dd21ed1778ca556e343f46ee1e2c82958fbb2567e5a7270f7d4",
+      "statusKey": "5269980940cf6cec1f30a67703b12683f2c378515583dac0a7a26cace7e451d5"
+    },
+    {
+      "carrier": {
+        "iata": "9B"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 179,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "TN",
+        "country": {
+          "code": "GB"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "23:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "OXF",
+          "icao": "EGTK"
+        },
+        "terminal": "",
+        "country": {
+          "code": "GB"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "01:25",
+          "utc": "00:25"
+        }
+      },
+      "elapsedTime": 85,
+      "aircraftType": {
+        "iata": "BUS"
+      },
+      "serviceType": {
+        "iata": "U"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "",
+          "name": "NATIONAL EXPRESS",
+          "number": "127X"
+        },
+        "aircraftOwner": {
+          "code": "",
+          "name": "NATIONAL EXPRESS"
+        },
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "52cf0e4f6dec28557c983b91b71a8a54faf63d6eb1719a8e43fc0e8ebe624124",
+      "statusKey": "d81a8eea36fcb770ab335dd3778616c802f2d02dd957263c80cc153fcfe4e7cf"
+    },
+    {
+      "carrier": {
+        "iata": "FR",
+        "icao": "RYR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 7227,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "SKG",
+          "icao": "LGTS"
+        },
+        "terminal": "",
+        "country": {
+          "code": "GR"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "21:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "KRK",
+          "icao": "EPKK"
+        },
+        "terminal": "",
+        "country": {
+          "code": "PL"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "01:00",
+          "utc": "23:00"
+        }
+      },
+      "elapsedTime": 120,
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "RR",
+          "name": "",
+          "number": "9"
+        },
+        "aircraftOwner": {
+          "code": "RR",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "9b0fe386756d3f2105c14b23323b611c3f78e3ff27429ad8168619322ecf9095",
+      "statusKey": "04e0ce312153559561fa2ec25a2d37d5d75031e9a6597c663eee6190765055f3"
+    },
+    {
+      "carrier": {
+        "iata": "SV",
+        "icao": "SVA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 954,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "NBO",
+          "icao": "HKJK"
+        },
+        "terminal": "",
+        "country": {
+          "code": "KE"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "21:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "JED",
+          "icao": "OEJN"
+        },
+        "terminal": "",
+        "country": {
+          "code": "SA"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "03:40",
+          "utc": "00:40"
+        }
+      },
+      "elapsedTime": 220,
+      "aircraftType": {
+        "iata": "74Y"
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "b31959fd9829e207b8c91a82426dc6622cd53d9e892a7a7fd3e64e6723a50778",
+      "statusKey": "54ce93d51c046be425d640061fe76894501667cb251c664669aa27632ccfee26"
+    },
+    {
+      "carrier": {
+        "iata": "MS",
+        "icao": "MSR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 500,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "CAI",
+          "icao": "HECA"
+        },
+        "terminal": "",
+        "country": {
+          "code": "EG"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "21:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "AMM",
+          "icao": "OJAI"
+        },
+        "terminal": "",
+        "country": {
+          "code": "JO"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "01:15",
+          "utc": "22:15"
+        }
+      },
+      "elapsedTime": 75,
+      "aircraftType": {
+        "iata": "738"
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "df5512ed427115e6146a2d76cf2d32d758a2377c26d4a2c0e61bc4321d388663",
+      "statusKey": "6f3af04b139f339b9e179b0c0f2fe91eedbdf6bdc8780d28f240c2a9e4f8d1b3"
+    },
+    {
+      "carrier": {
+        "icao": "IOS"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 39,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "LEQ",
+          "icao": "EGHC"
+        },
+        "terminal": "",
+        "country": {
+          "code": "GB"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "23:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "ISC",
+          "icao": "EGHE"
+        },
+        "terminal": "",
+        "country": {
+          "code": "GB"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "04:48",
+          "utc": "03:48"
+        }
+      },
+      "elapsedTime": 288,
+      "aircraftType": {
+        "iata": "DHT"
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "6326ec3b8f8b5c00ad13fc99f17713e83a702cb118d9e77aa70bb48c087ff45b",
+      "statusKey": "129d4051cdc3b64f56882f911b4bf04f29ad78c8638fdc03657d5885cbfb74ad"
+    },
+    {
+      "carrier": {
+        "iata": "QR",
+        "icao": "QTR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 8106,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "ORD",
+          "icao": "KORD"
+        },
+        "terminal": "",
+        "country": {
+          "code": "US"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "05:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "BRU",
+          "icao": "EBBR"
+        },
+        "terminal": "",
+        "country": {
+          "code": "BE"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "14:55",
+          "utc": "12:55"
+        }
+      },
+      "elapsedTime": 475,
+      "aircraftType": {
+        "iata": "77X"
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "18c17803c5a45b007ca432512b3ec134ef8590cff21feecf61315fbc5d47d224",
+      "statusKey": "5472e1a46605c70dea19c45290548c319af6e006a1c9720e0869ef2dad8dcbaa"
+    },
+    {
+      "carrier": {
+        "iata": "QR",
+        "icao": "QTR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 8106,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "ORD",
+          "icao": "KORD"
+        },
+        "terminal": "",
+        "country": {
+          "code": "US"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "05:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "DOH",
+          "icao": "OTHH"
+        },
+        "terminal": "",
+        "country": {
+          "code": "QA"
+        },
+        "date": {
+          "local": "2024-05-02",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:10",
+          "utc": "21:10"
+        }
+      },
+      "elapsedTime": 970,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "BRU"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "4833771400370c511f3bb6fdfadc7eb9423bd261dded539f3cad26e37416ebc2"
+    },
+    {
+      "carrier": {
+        "iata": "QR",
+        "icao": "QTR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 8175,
+      "sequenceNumber": 3,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "ZAZ",
+          "icao": "LEZG"
+        },
+        "terminal": "",
+        "country": {
+          "code": "ES"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "22:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "NLU",
+          "icao": "MMSM"
+        },
+        "terminal": "",
+        "country": {
+          "code": "MX"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "03:55",
+          "utc": "09:55"
+        }
+      },
+      "elapsedTime": 715,
+      "aircraftType": {
+        "iata": "77X"
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "8c33bbc6982136d08e35d5e76881a8a75cab713adbb599fbaddfeb67841e6ae1",
+      "statusKey": "0eed994ba1b458db59bdc679b462e3aeec6ab9f997689a82d84a384b528d46e8"
+    },
+    {
+      "carrier": {
+        "iata": "QR",
+        "icao": "QTR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 8175,
+      "sequenceNumber": 3,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "ZAZ",
+          "icao": "LEZG"
+        },
+        "terminal": "",
+        "country": {
+          "code": "ES"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "22:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LAX",
+          "icao": "KLAX"
+        },
+        "terminal": "",
+        "country": {
+          "code": "US"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "09:25",
+          "utc": "16:25"
+        }
+      },
+      "elapsedTime": 1105,
+      "aircraftType": {
+        "iata": ""
+      },
+      "serviceType": {
+        "iata": "F"
+      },
+      "segmentInfo": {
+        "numberOfStops": 1,
+        "intermediateAirports": {
+          "iata": [
+            {
+              "sequenceNumber": 0,
+              "station": "NLU"
+            }
+          ]
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "b4ea204da1f8d87723773957af1933fa16ea8e3291a4cf3cfda77412d74d823e"
+    },
+    {
+      "carrier": {
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9660,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "PNQ",
+          "icao": "VAPO"
+        },
+        "terminal": "",
+        "country": {
+          "code": "IN"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "18:30"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "DEL",
+          "icao": "VIDP"
+        },
+        "terminal": "2",
+        "country": {
+          "code": "IN"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "02:15",
+          "utc": "20:45"
+        }
+      },
+      "elapsedTime": 135,
+      "aircraftType": {
+        "iata": "321"
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "",
+          "name": "OPERATED BY INDIGO OR SMARTLYNX",
+          "number": "127Z"
+        },
+        "aircraftOwner": {
+          "code": "6E",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": [],
+        "operatingFlight": {
+          "code": "6E",
+          "serviceNumber": "2279",
+          "suffix": ""
+        }
+      },
+      "scheduleInstanceKey": "f4a4d9b8ec624968f35d992fe31071ea22c7cf50527af327617be0a11e87c2a8",
+      "statusKey": "92f7c84f18907069f87473583b95b2daab2459011281f8203e0285bddff2c8a3"
+    },
+    {
+      "carrier": {
+        "iata": "FR",
+        "icao": "RYR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 2683,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "CLJ",
+          "icao": "LRCL"
+        },
+        "terminal": "",
+        "country": {
+          "code": "RO"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "21:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "BGY",
+          "icao": "LIME"
+        },
+        "terminal": "",
+        "country": {
+          "code": "IT"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "01:00",
+          "utc": "23:00"
+        }
+      },
+      "elapsedTime": 120,
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "",
+          "name": "Malta Air",
+          "number": "127X"
+        },
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "86e7f3a5cc764d4adccf2a054597be22535f3454390e37182da24acde134ceae",
+      "statusKey": "251c743cf48de0d3964ea6fd2170cfc61978681d3cac45a35e4e5315e2e67853"
+    },
+    {
+      "carrier": {
+        "iata": "Z2",
+        "icao": "APG"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 627,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "MNL",
+          "icao": "RPLL"
+        },
+        "terminal": "3",
+        "country": {
+          "code": "PH"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "DVO",
+          "icao": "RPMD"
+        },
+        "terminal": "",
+        "country": {
+          "code": "PH"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "02:00",
+          "utc": "18:00"
+        }
+      },
+      "elapsedTime": 120,
+      "aircraftType": {
+        "iata": "320"
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "c6a4dc301c723db98d9787434493e42551eca49abd223e63443ee922d464f5ff",
+      "statusKey": "7f2659d28d1ddfdebe5f121e599f1d4027a73f9541d9bf653e3d86cdd7ea222c"
+    },
+    {
+      "carrier": {
+        "iata": "Z2",
+        "icao": "APG"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 761,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "MNL",
+          "icao": "RPLL"
+        },
+        "terminal": "3",
+        "country": {
+          "code": "PH"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "00:00",
+          "utc": "16:00"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "CEB",
+          "icao": "RPVM"
+        },
+        "terminal": "1",
+        "country": {
+          "code": "PH"
+        },
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-04-30"
+        },
+        "time": {
+          "local": "01:20",
+          "utc": "17:20"
+        }
+      },
+      "elapsedTime": 80,
+      "aircraftType": {
+        "iata": "320"
+      },
+      "serviceType": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "fd4c8171bda804033b2adc6090908507b8ee160cebc1716e0e2bb986bffc3297",
+      "statusKey": "f34f0d23d4c44d9ac326a0a7255d4e029fb29dd613e343e9c7f75b5f096d097e"
+    },
+    {
+      "carrier": {
+        "iata": "CV",
+        "icao": "CLX"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 1020,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "SEA",
+          "icao": "KSEA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:01",
+          "utc": "07:01"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "YVR",
+          "icao": "CYVR"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "08:00",
+          "utc": "15:00"
+        }
+      },
+      "elapsedTime": 479,
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceType": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "40fdb34e6db04d311a72738181d9ecbe7917cba852e95a8af781d345f9cc39f5",
+      "statusKey": "054aeb38eb338747f86224162fff93e40e76ff176aaab4022f307b1e1179515d"
+    },
+    {
+      "carrier": {
+        "iata": "CV",
+        "icao": "CLX"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 1010,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "SEA",
+          "icao": "KSEA"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "00:01",
+          "utc": "07:01"
+        }
+      },
+      "arrival": {
+        "airport": {
+          "iata": "PDX",
+          "icao": "KPDX"
+        },
+        "terminal": "",
+        "country": {},
+        "date": {
+          "local": "2024-05-01",
+          "utc": "2024-05-01"
+        },
+        "time": {
+          "local": "09:00",
+          "utc": "16:00"
+        }
+      },
+      "elapsedTime": 539,
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceType": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "marketingFlights": []
+      },
+      "scheduleInstanceKey": "8639c9a99050d559d2df7f90eaa59ce45af80560f5bc164fd4f36f5c9b26b4d3",
+      "statusKey": "1851e91652e0182c91d1a305da98f5884182ddce6b72417cc09adbffd6223523"
+    }
+  ],
+  "paging": {
+    "limit": 100,
+    "totalCount": 8183533,
+    "totalPages": 81836,
+    "next": "https://flight-info-api.p.rapidapi.com/schedules?&version=v2&DepartureDateTime=2024-05-01%2F2024-05-31&After=202405010001-1689241668261000000-8639c9a99050d559d2df7f90eaa59ce45af80560f5bc164fd4f36f5c9b26b4d3"
+  }
+}
